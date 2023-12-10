@@ -1,0 +1,8 @@
+div
+{
+    background-image: url(imag.png);background-repeat: no-repeat;background-size: cover;
+    width:630px;
+    height:670px;
+    align-content:center;
+    padding-right:450px;
+}
