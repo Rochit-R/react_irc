@@ -1,0 +1,4 @@
+function funval()
+{
+window.alert("THANK YOU FOR SPENDING YOUR VALUABLE TIME ON SEEING MY PERSONAL DETAILS");
+}
