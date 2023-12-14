@@ -1,0 +1,7 @@
+.App {
+  width:100vw;
+  height:120vh;
+  background-image: url("../images/o2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
