@@ -1,0 +1,84 @@
+header a{
+    text-decoration:none;
+    color: #fff;
+    font-size:18px;
+    transition:all 0.2s ease;
+}
+header a:hover{
+    color:var(--primary-color);
+    cursor:pointer;
+}
+header{
+    position:relative;
+    padding:0 2rem;
+    background-color:bisque;
+    backdrop-filter: blur(10px);
+}
+.navbar{
+    width: 100%;
+    height:60px;
+    max-width:1200px;
+    margin:0 auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo a{
+    color:rgb(192, 121, 34);
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.links{
+    display:flex;
+    gap:2rem;
+}
+.links a{
+    border-bottom:2px solid transparent;
+}
+.activeLink{
+    border-bottom:2px solid pink !important;
+}
+.auth{
+    display:flex;
+    align-items: center;
+    gap:5px;
+    color:burlywood;
+}
+.login{
+    text-decoration:underline;
+}
+.SignUp
+{
+    padding:0.5rem 1rem;
+    background-color: var(--primary-color);
+    color:burlywood;
+    border-radius: 10px;
+    font-size:14px;
+    font-weight: bold;
+    cursor:pointer;
+}
+.SignUp:hover{
+    scale:1.05;
+    color:aqua;
+}
+.SignUp:active{
+    scale:1;
+}
+.menuBtn{
+    color:black;
+    cursor:pointer;
+    /* display: none; */
+}
+@media(max-width:992px){
+    header{
+        background-color: transparent;
+        backdrop-filter: none;
+    }
+    .links, 
+    .auth{
+        display:none;
+    }
+    .menuBtn{
+        display:block;
+    }
+}

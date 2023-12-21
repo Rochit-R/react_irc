@@ -1,0 +1,43 @@
+.side-panel {
+    height: 100vh;
+    width: 220px; /* 20px extra than inner divs */
+    background-color: #222; /* adjust bg color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .inner-container {
+    width: 200px; /* adjust width to match content */
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px; /* space between divs */
+  }
+  
+  .panel-item {
+    height: 100px;
+    padding: 20px;
+    background-color: #333; /* adjust bg color */
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .panel-item:hover {
+    background-color: #555;
+  }
+  
+  .app-container {
+    display: flex;
+  }
+  
+  main {
+    flex: 1;
+    padding: 20px;
+  }
+  

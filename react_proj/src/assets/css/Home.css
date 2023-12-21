@@ -1,0 +1,89 @@
+.page
+{
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hm
+{
+    align-items: center;
+    display:flex;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:70%;
+    width:100%;
+    justify-content: flex-start;
+}
+.l1{
+    background-image:url('../images/Garage.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 200px;
+}
+.r1{
+    font-size:medium;
+    width: 50%;
+    justify-content: center;
+    height: 500px;
+}
+.hm2
+{
+    align-items: center;
+    display:flex;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:100%;
+    width:100%;
+    justify-content: flex-end;
+}
+.l2{
+    background-image:url('../images/Genuinee.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 200px;
+}
+.r2{
+    font-size:medium;
+    width: 50%;
+    justify-content: center;
+    height: fit-content;
+}
+.Ser
+{
+    align-items: center;
+    display:flex;
+    position:relative;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    height:100%;
+    width:100%;
+    justify-content: flex-start;
+}
+.l2{
+    background-image:url('../images/Genuinee.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 200px;
+}
+.r2{
+    font-size:medium;
+    width: 50%;
+    justify-content: center;
+    height: 500px;
+}
+.flexx{
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+}
+.item{
+    font-size: x-large;
+    width: fit-content;
+}
